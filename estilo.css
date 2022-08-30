@@ -1,0 +1,137 @@
+body{
+     font-family: Arial,  sans-serif;
+     background-image: url(../imagens/fundopt2.jpg);
+     margin:100px;
+    
+}
+
+li{/*tudo sobre as bordas e fundos das letras */
+    display:inline-block;
+    padding: 10px;
+    border: 1px solid white;
+    /*mesma cor so que  de modo separado*/
+    background: rgba(0,0,0, 0.3);
+    margin-left: 0
+}
+a{  /*tudo somente sobre as letras*/
+    color: white;
+    text-decoration: none;
+    /*serve para tirar o sublinhado da frase ou palavra*/
+    text-transform: uppercase;
+    /*tudo emmaiusculo fica minusculo e vice versa*/
+    font-size: 10px;
+    letter-spacing: 2px;
+    /*espaço entre as letras*/
+}
+ul{
+    text-align: right;
+    margin: 20px 20px 0 0;
+    /*quando for so margin, ele pega tudo em volta
+    do texto*/
+}
+.hero{
+    background-image: url(../imagens/fundopt1.jpg);
+    height: 500px;
+    background-position: center;
+    background-size:cover;
+    border-top: 1px solid black;
+    
+}
+.hero-content{
+    text-align: center;
+    color: black;
+    margin: 150px;
+}
+
+.hero-content h1{
+    text-transform: uppercase;
+    font-size: 46px;
+    text-shadow: 3px 3px 3px #333 ;
+    /*text-shadow, serve para dar sombra as letras, seja borda ou 
+    esfumaçar*/
+}
+.hero-content p{ 
+    color: black;
+        background: rgba(0,0,0, 0.3);
+        display: inline-block;
+        padding: 10px;
+        border-bottom: 4px solid black;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+}
+.content-section{
+    background-color: white;
+    padding: 15px;
+    /*padding serve para dar espaçamento envolta do texto/quadrado */
+    margin-top: 15px ;
+    overflow: auto;
+}
+.card{
+    width: 30%;
+    float: left;
+    box-sizing: border-box;
+    margin-left: 3%;
+}
+.card p{
+    color:white;
+    margin: 0%;
+    background: rgba(0,0,0, 0.8);
+}
+.card img{
+    width: 100%;
+    display: block;
+}
+.content-section div img{
+    width: 100%;
+    
+
+
+}
+
+.sexy2{
+    background-color: white;
+    padding: 10px;
+    margin-top: 20px;
+    /*margin top serve para distanciar o topo*/
+}
+
+.hero2{
+    background-color: #ccc;
+    font-size: 26px;
+    padding: 10px;
+    width: auto;
+    margin: auto;
+}
+
+.pintinho{
+    /*footer*/
+    color: white;
+    height: 80px; 
+    text-align: center;
+    line-height: 80px;
+    font-size: 14px;
+    text-shadow: 3px 3px 2px black;
+    background: #6b6c68;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+
+    p{
+        text-indent: 20px;
+        margin: auto;
+        padding: 10px;
+    }
+    
+    a:hover{
+        color: blue;
+          }
+          .de1{
+              
+          }
+   
+
+   
+ 
